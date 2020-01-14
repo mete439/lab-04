@@ -1,0 +1,75 @@
+div {
+    border: 1px solid black;
+    background-color: rgb(80, 121, 80);
+    width: 100%;
+}
+.header {
+    height: 75px;
+}
+.aside {
+    height: 150px;
+}
+.box c, .box d {
+    height: 125px;
+}
+.box e, .box f, .box g, .box h {
+    width: 50%;
+    height: 250px;
+}
+.footer {
+    height: 80px;
+}
+
+@media(min-width: 768px) {
+    div {
+        background-color: lightslategray
+    }
+    .header {
+        height: 100px;
+        grid-column: 1 / 6;
+    }
+    .aside {
+        height: 600px;
+        grid-column: 1/2;
+    }
+    .box c {
+        height: 200px;
+        grid-column: 2 / 4;
+    }
+    .box d {
+        height: 200px;
+        grid-column: 4 / 6;  
+    }
+    .box e {
+        height: 250px;
+        width: 100%;
+        grid-column-start: 2;
+    }
+    .box f {
+        height: 250px;
+        width: 100%;
+        grid-column: 3 / 4;
+    }
+    .box g {
+        height: 250px;
+        width: 100%;
+        grid-column: 4 / 5;
+    }
+    .box h {
+        height: 250px;
+        width: 100%;
+        grid-column: 5 / 6;
+    }
+    .footer {
+        height: 150px;
+        width: 100%;
+        grid-column: 1 / 6;
+    }
+}
+
+@media(min-width: 960px) {
+    div {
+        background-color: lightskyblue;
+    }
+}
+  
