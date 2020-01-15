@@ -1,18 +1,17 @@
-
 * {
     box-sizing: border-box;
 }
 
-body {
+#frame {
     width: 480px;
     margin: auto;
-    display: grid;
+    display: flex;
     flex-flow: row;
     flex-wrap: wrap;
 }
 
 @media(min-width: 768px) {
-    body {
+    #frame {
         width: 960px;
         display: grid;
         grid-template-columns: 200px repeat(4, 190px);
@@ -21,7 +20,7 @@ body {
 }
 
 @media(min-width:960px) {
-    body {
+    #frame {
         width: 960px;
         margin: auto;
     }
