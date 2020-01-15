@@ -3,16 +3,16 @@
     box-sizing: border-box;
 }
 
-#frame {
+body {
     width: 480px;
     margin: auto;
     display: grid;
-    /* flex-flow: row;
-    flex-wrap: wrap; */
+    flex-flow: row;
+    flex-wrap: wrap;
 }
 
 @media(min-width: 768px) {
-    #frame {
+    body {
         width: 960px;
         display: grid;
         grid-template-columns: 200px repeat(4, 190px);
@@ -21,7 +21,7 @@
 }
 
 @media(min-width:960px) {
-    #frame {
+    body {
         width: 960px;
         margin: auto;
     }

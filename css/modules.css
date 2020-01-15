@@ -1,30 +1,30 @@
 p {
     text-align: center;
 }
-.header p {
+.header  {
     padding: 33px 0;
 }
-.aside p {
+.aside  {
     padding: 70px 0;
 }
-.box c p, .box d p {
+.box c , .box d {
     padding: 55px 0;
 }
-.box e p, .box f p, .box g p, .box h p {
+.box e , .box f , .box g , .box h  {
     padding: 120px 0;
 }
-.footer p {
+.footer  {
     padding: 30px 0;
 }
 
 @media(min-width: 768px) {
-    .header p {
+    .header {
         padding: 38px 0;
     }
-    .aside p {
+    .aside {
         padding: 270px 0;
     }
-    .box c p, .box d p {
+    .box c , .box d {
         padding: 95px 0;
     }
     .footer p {
