@@ -33,11 +33,11 @@ div {
         grid-column: 1 / 2;
     }
     .boxc {
-        height: 202px;
+        height: 200px;
         grid-column: 2 / 4;
     }
     .boxd {
-        height: 202px;
+        height: 200px;
         grid-column: 4 / 6;  
     }
     .boxe {
